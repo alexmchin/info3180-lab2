@@ -1,3 +1,53 @@
 body {
     padding-top: 5rem;
 }
+
+#top-panel{
+    background: #34a743;
+    min-height: 50%;
+    padding: 2em;
+}
+
+#bottom-panel{
+    padding-left: 23%;
+    padding-right: 23%;
+    padding-top: 4%;
+    padding-bottom: 3em;
+}
+
+#top-info{
+    color: white;
+    text-align: center;
+    margin-top: 0.2em;
+}
+
+.image{
+    border-radius: 50%;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
+
+#analytics{
+    position: relative;
+    left: 25%;
+}
+#analytics div{
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+button{
+    margin-left: 10%;
+    background-color: #8be933;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+    display: block;
+}
+.profile-panel{
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
